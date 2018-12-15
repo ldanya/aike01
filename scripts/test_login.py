@@ -44,6 +44,8 @@ class TestLogoin():
     def teardown_class(self):
         # 关闭驱动对象
         self.login.driver.quit()
+    def test01(self):
+        print("hhh")
 
     # test_login
     @pytest.mark.parametrize("username,password",get_data())
